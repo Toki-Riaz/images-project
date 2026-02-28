@@ -61,7 +61,7 @@ header {
 
 
 
-button {
+.sign-up-button {
   font-size: 20px;
   padding: 10px;
   background-color: #3882F6;
@@ -70,6 +70,7 @@ button {
   border: solid white 2px;
   width: 100px;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .div-2 {
@@ -208,7 +209,7 @@ button {
 
 .div-6 {
   display: flex;
-  padding: 200px;
+  padding: 150px;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -270,4 +271,13 @@ button {
 .main-button {
   display: flex;
   margin-top: 5px;
+  margin-right: auto;
+  border: solid white 1px;
+  font-size: 20px;
+  padding: 10px 12px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  flex-wrap: wrap;
 }
